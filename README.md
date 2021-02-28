@@ -1,14 +1,21 @@
 # Asteroid Defense
-Asteroid Defense is a small [Unity](https://unity.com/) exercise project that simulates an asteroid defense system.
+Asteroid Defense is a [Unity](https://unity.com/) exercise project that simulates an asteroid defense system for a space station.
 
-The defense system of the space station consists of a radar and a torpedo launcher. The outer space is full of debris and rocks floating around, but we don't know about them until they show up on the radar. 
+The space station is located at the center of the screen and the asteroids, which are spawned offscreen, are floating in space around it.
+The station radar scans new asteroids periodically for their locations and velocities. 
 
-Every once in a while, the radar detects some object and it tells us its exact position and velocity at that moment. We immediately have to decide whether the trajectory of the object comes within a given safety distance to the space station, and if it does, shoot a torpedo right away to take it down. 
+After scanning an asteroid, it immediately decides whether the trajectory of the asteroid comes within a given safety distance to the space station, and if it does, shoots a torpedo to blow it up.
 
-Assumptions and requirements: 
+The assumptions and requirements of the simulation:
 
 - The space station has a fixed position. 
-- The safety distance is a fixed value. 
+- The safety distance is a fixed value.
 - The torpedo launcher can instantly shoot in any direction. 
-- Torpedoes have a fixed speed (S) and cannot propel themselves. 
-- There is no gravitational force, therefore every object must move at a constant velocity once created. 
+- Torpedoes have a fixed speed and cannot propel themselves.
+- There is no gravitational force, therefore every object must move at a constant velocity once created.
+- The user must be allowed to spawn asteroids interactively.
+
+## Controls
+Hold the left mouse button to spawn an asteroid.
+
+Drag and release to launch the asteroid.
