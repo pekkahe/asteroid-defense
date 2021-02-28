@@ -1,0 +1,9 @@
+Files:
+asteroid.png: http://opengameart.org/content/asteroid
+circle.png: https://www.assetstore.unity3d.com/#/content/11228
+crosshair.png: http://opengameart.org/content/crosshairs-and-reticles
+explosion.png: https://www.assetstore.unity3d.com/#/content/11228
+flare.png: http://opengameart.org/content/flare-effect
+smokepuffs.png: https://www.assetstore.unity3d.com/#/content/11228
+space.png: http://opengameart.org/content/space-skybox-0
+spacestation.png: http://opengameart.org/content/faction4-spacestation
