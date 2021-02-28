@@ -15,7 +15,7 @@ The assumptions and requirements of the simulation:
 - There is no gravitational force, therefore every object must move at a constant velocity once created.
 - The user must be allowed to spawn asteroids interactively.
 
-For video and screenshots of the game, please visit [pekkahellsten.com](https://pekkahellsten.com/).
+For video and screenshots, please visit [pekkahellsten.com](https://pekkahellsten.com/).
 
 ## Controls
 Hold the left mouse button to spawn an asteroid.
